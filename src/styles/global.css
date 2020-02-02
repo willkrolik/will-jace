@@ -1,0 +1,22 @@
+.links {
+  float: right;
+  margin: 10px;
+  color: blue;
+}
+
+html {
+    background-color: tan;
+  }
+
+.description {
+    padding: 40px;
+}
+
+
+
+@import "pictureContent.css";
+
+@import "linkContent.css";
+
+@import "infonub.css"
+

@@ -1,0 +1,30 @@
+article.event{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  article.event section{
+      display:flex;
+      font-size: var(--text-large);
+      padding: 40px 0;
+    }
+    article.event h3{
+      font-size: var(--text-large);
+    }
+    article.event section img{
+      width: 415px;
+      object-fit: contain;
+      height: 200px;
+    }
+    article.event section:nth-child(even) img{
+      order: 2;
+      margin-left: 200px;
+    }
+    article.event section:nth-child(odd) img{
+      margin-right: 20px;
+    }
+    .pictureContent .textContainer {
+      padding: 50px;
+    }
+
+
+  
